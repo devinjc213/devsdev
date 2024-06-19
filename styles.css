@@ -1,0 +1,60 @@
+html {
+  background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(74, 98, 110) 131%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Poppins;
+  color: #ededed;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+a:visited {
+  color: #ededed;
+  text-decoration: none;
+}
+
+body h1 {
+  margin-top: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav {
+  z-index: 10;
+  border-bottom: 2px solid #ededed;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+.main-div {
+  background: #3b3b3b;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 80%;
+}
+
+.section {
+  display: none;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section:target {
+  display:flex;
+}
